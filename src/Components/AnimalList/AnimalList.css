@@ -5,4 +5,8 @@
 .animal .name {
     text-transform: uppercase;
     font-weight: bold;
+    color: rgb(255, 247, 21);
+    background-color: rgba(85, 65, 0, 0.605);
+    border-radius: 10px;
+    padding: 5px;
 }
