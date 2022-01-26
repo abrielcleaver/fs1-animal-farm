@@ -4,6 +4,20 @@
 import React from 'react';
 import './AnimalList.css';
 
-export default function AnimalList(){
-  return <div></div>; 
+// {
+//     name: 'Betsy the Cow',
+//     type: 'cow',
+//     says: 'Mooooooo!',
+//     top: '200px',
+//     left: '50%',
+//   },
+
+export default function AnimalList({ top, left, name, type, says }){
+  return (
+    <div className="animal" style={{ top: top, left: left }}>
+      <img src={`${process.env.PUBLIC_URL}/animals/${type}.svg` } />
+      <span>{name}</span>
+      <span>{says}</span>
+    </div>
+  );
 }
