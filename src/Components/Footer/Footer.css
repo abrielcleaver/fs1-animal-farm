@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: burlywood;
+    color: brown;
+    font-family: 'monospace';
+    font-weight: bold;
+
+}
