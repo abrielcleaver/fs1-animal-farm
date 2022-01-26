@@ -16,7 +16,7 @@ export default function AnimalList({ top, left, name, type, says }){
   return (
     <div className="animal" style={{ top: top, left: left }}>
       <img src={`${process.env.PUBLIC_URL}/animals/${type}.svg` } />
-      <span>{name}</span>
+      <span className="name">{name}</span>
       <span>{says}</span>
     </div>
   );
